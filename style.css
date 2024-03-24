@@ -70,4 +70,25 @@ ul {
     margin-bottom: 2.4rem;
 }
 
+/* media queries */
 
+@media (min-width: 1130px){
+    main{
+        flex-direction: row;
+        max-width: fit-content;
+        gap: 16rem;
+
+        padding: 10rem 6rem;
+    }
+    /*main > div {  as div´s de primeiro nível do main recebem algo 
+        flex: 1;  pega cada uma das div´s e divide o tamanho por igual 
+        max-width: 50rem;  max-width da uma largura maxima pro main 50rem equivale à 500px para cada lado da tela 
+    }*/
+    /* outra forma */
+    .recipe {
+        max-width: 43.5rem;
+    }
+    .ingredients {
+        max-width: 52.5rem;
+    }
+}
